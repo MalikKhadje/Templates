@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bootstrap/W3.css Website</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <!-- Script -->
+    <script src="text.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="w3-text-theme">
+    <main id="main-content">
+
+        <nav class="navbar navbar-expand-sm w3-theme-d4 navbar-dark" style="min-height: 100px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse w3-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="content" class="container d-flex flex-column w3-padding-64">
+            <div id="top-element"
+                class="d-flex justify-content-center align-items-center w3-theme text-white w3-section"
+                style="height: 300px;">
+                <h1 class="w3-center">Simple Responsive Bootstrap & W3.CSS Website</h1>
+            </div>
+            <div id="middle-element" class="d-flex justify-content-between align-items-center text-white w3-section">
+                <div class="middle-element-childs w3-theme-l1 w3-col s3 w3-margin-right" style="height: 300px;"></div>
+                <div class="middle-element-childs w3-col s9" style="height: 300px;">
+                    <div class="middle-element-childs w3-theme-l2" style="height: 300px; width: 100%;"></div>
+                </div>
+
+            </div>
+            <div id="middle-element-2" class="d-flex justify-content-between align-items-center text-white w3-section">
+                <div class="middle-element-childs w3-theme-l2 w3-col s9 w3-margin-right" style="height: 300px;"></div>
+                <div class="middle-element-childs w3-col s3" style="height: 300px;">
+                    <div class="middle-element-childs w3-theme-l1" style="height: 300px; width: 100%;"></div>
+                </div>
+
+            </div>
+            <div id="bottom-element" class="w3-theme" style="height: 200px;"></div>
+        </div>
+
+        <footer id="footer" class="w3-theme-d4 w3-section d-flex justify-content-between w3-padding" style="width: auto;">
+            <div class="footer-section" id="footer-left">
+                <ul>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                </ul>
+            </div>
+            <div class="footer-section" id="footer-middle">
+                <ul>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                    <li>Lorem</li>
+                </ul>
+            </div>
+            <div class="footer-section align-self-end" id="footer-right">
+                <p>&COPY;Malik Khadje</p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
